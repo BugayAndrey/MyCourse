@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MyTheBestSuite" verbose="1" >
+  <test name="Positive Tests"   >
+      <groups>
+          <run>
+              <include name="positive"></include>
+              <include name="negative"></include>
+          </run>
+          <dependencies>
+              <group name="negative" depends-on="positive"></group>
+          </dependencies>
+      </groups>
+      <packages>
+      <package name=".*" />
+   </packages>
+
+ </test>
+
+</suite>
