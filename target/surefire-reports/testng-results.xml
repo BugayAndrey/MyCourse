@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyTheBestSuite" duration-ms="64" started-at="2015-11-30T14:05:19Z" finished-at="2015-11-30T14:05:19Z">
+    <groups>
+      <group name="negative">
+        <method signature="MyFirstTest.FourthTestNegative()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="FourthTestNegative" class="MyPackage1.MyFirstTest"/>
+        <method signature="MyFirstTest.ThirdTestNegative()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="ThirdTestNegative" class="MyPackage1.MyFirstTest"/>
+        <method signature="MySecondTest.FourthTestNegative()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="FourthTestNegative" class="package2.MySecondTest"/>
+        <method signature="MySecondTest.ThirdTestNegative()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="ThirdTestNegative" class="package2.MySecondTest"/>
+      </group> <!-- negative -->
+      <group name="positive">
+        <method signature="MyFirstTest.FirstTest()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="FirstTest" class="MyPackage1.MyFirstTest"/>
+        <method signature="MyFirstTest.SecondTest()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="SecondTest" class="MyPackage1.MyFirstTest"/>
+        <method signature="MySecondTest.FirstTest()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="FirstTest" class="package2.MySecondTest"/>
+        <method signature="MySecondTest.SecondTest()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="SecondTest" class="package2.MySecondTest"/>
+      </group> <!-- positive -->
+    </groups>
+    <test name="Positive Tests" duration-ms="64" started-at="2015-11-30T14:05:19Z" finished-at="2015-11-30T14:05:19Z">
+      <class name="MyPackage1.MyFirstTest">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="BeforeClass" is-config="true" duration-ms="9" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="FirstTest" duration-ms="4" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="PASS" signature="RemoveFile()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="RemoveFile" is-config="true" duration-ms="1" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveFile -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="SecondTest" duration-ms="2" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="RemoveFile()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="RemoveFile" is-config="true" duration-ms="1" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveFile -->
+        <test-method status="PASS" signature="FourthTestNegative()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="FourthTestNegative" duration-ms="5" depends-on-groups="positive" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourthTestNegative -->
+        <test-method status="PASS" signature="RemoveFile()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="RemoveFile" is-config="true" duration-ms="1" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveFile -->
+        <test-method status="PASS" signature="ThirdTestNegative()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="ThirdTestNegative" duration-ms="1" depends-on-groups="positive" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdTestNegative -->
+        <test-method status="PASS" signature="RemoveFile()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="RemoveFile" is-config="true" duration-ms="1" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveFile -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:MyPackage1.MyFirstTest@1888ff2c]" name="AfterClass" is-config="true" duration-ms="1" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- MyPackage1.MyFirstTest -->
+      <class name="package2.MySecondTest">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="BeforeClass" is-config="true" duration-ms="1" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="FirstTest" duration-ms="1" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstTest -->
+        <test-method status="PASS" signature="RemoveFile()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="RemoveFile" is-config="true" duration-ms="2" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveFile -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="SecondTest" duration-ms="0" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="RemoveFile()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="RemoveFile" is-config="true" duration-ms="0" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveFile -->
+        <test-method status="PASS" signature="FourthTestNegative()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="FourthTestNegative" duration-ms="8" depends-on-groups="positive" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourthTestNegative -->
+        <test-method status="PASS" signature="RemoveFile()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="RemoveFile" is-config="true" duration-ms="1" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveFile -->
+        <test-method status="PASS" signature="ThirdTestNegative()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="ThirdTestNegative" duration-ms="2" depends-on-groups="positive" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdTestNegative -->
+        <test-method status="PASS" signature="RemoveFile()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="RemoveFile" is-config="true" duration-ms="0" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveFile -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:package2.MySecondTest@1ae369b7]" name="AfterClass" is-config="true" duration-ms="1" started-at="2015-11-30T16:05:19Z" finished-at="2015-11-30T16:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- package2.MySecondTest -->
+    </test> <!-- Positive Tests -->
+  </suite> <!-- MyTheBestSuite -->
+</testng-results>

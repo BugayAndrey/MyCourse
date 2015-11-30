@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [MyTheBestSuite]">
+  <test name="Positive Tests(failed)">
+    <groups>
+      <run>
+        <include name="positive"/>
+        <include name="negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="package2.MyClassTest">
+        <methods>
+          <include name="AfterClass"/>
+          <include name="BeforeClass"/>
+          <include name="RemoveFile"/>
+        </methods>
+      </class> <!-- package2.MyClassTest -->
+      <class name="MyPackage1.MyClassTest">
+        <methods>
+          <include name="RemoveFile"/>
+          <include name="AfterClass"/>
+          <include name="FirstTest"/>
+          <include name="BeforeClass"/>
+        </methods>
+      </class> <!-- MyPackage1.MyClassTest -->
+    </classes>
+  </test> <!-- Positive Tests(failed) -->
+</suite> <!-- Failed suite [MyTheBestSuite] -->
