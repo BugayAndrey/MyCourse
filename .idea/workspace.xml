@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a5011c9-6444-4161-9081-e67f518f3f06" name="Default" comment="">
+    <list default="true" id="0a5011c9-6444-4161-9081-e67f518f3f06" name="Default" comment="1.5 Prepared homework testin git commits">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MyPackage1/MyFirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/MyPackage1/MyFirstTest.java" />
     </list>
@@ -48,8 +48,8 @@
       <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyPackage1/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0202532">
-              <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.91943127">
+              <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -749,7 +749,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448902880341</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.5 Prepared homework testin git commits">
+      <created>1448903280085</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1448903280085</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -834,7 +840,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.5 Prepared homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5 Prepared homework" />
+    <MESSAGE value="1.5 Prepared homework testin git commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.5 Prepared homework testin git commits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -970,8 +977,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyPackage1/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0202532">
-          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.91943127">
+          <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
