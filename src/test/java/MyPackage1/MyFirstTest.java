@@ -9,6 +9,11 @@ import java.nio.file.Path;
 import java.nio.file.Files;
 import java.io.IOException;
 import java.io.File;
+import java.util.Iterator;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 public class MyFirstTest {
     Path Dir = null; //temp directory adress
@@ -35,21 +40,38 @@ public class MyFirstTest {
         }
     }
 
-    @Test(groups = {"positive"})
-    public void FirstTest() throws IOException {
+    @Test(groups = {"positive"}, dataProviderClass = DataProviders.class, dataProvider = "loadNameFromFile")
+    public void FirstTest(String name) throws IOException {
         created = false;
-        file = new File(Dir.toString() + '\\' + "test.txt");
+        file = new File(Dir.toString() + '\\' + name);
+        System.out.println(name);
         created = file.createNewFile();
         Assert.assertEquals(created, true);
     }
 
-    @Test(groups = {"positive"})
-    public void SecondTest() throws IOException {
+    @Test(groups = {"positive"}, dataProvider = "name")
+    public void SecondTest(String name) throws IOException {
         created = false;
-        file = new File(Dir.toString() + '\\' + "1234567890.txt");
+        file = new File(Dir.toString() + '\\' + name +".txt");
+        System.out.println(name +".txt");
         created = file.createNewFile();
         AssertJUnit.assertEquals(true, created);
     }
+
+    @DataProvider
+    public Iterator<Object[]> name(){
+       List<Object[]> data = new ArrayList<Object[]>();
+        for (int i=0; i<10; i++){
+            data.add(new Object[]{
+                  generateRandomName()});
+        }
+        return data.iterator();
+     }
+
+    private Object generateRandomName(){
+        return "name" + new Random().nextInt();
+    }
+
 
     @Test(groups = {"negative"}, alwaysRun = true)
     public void ThirdTestNegative() throws IOException {
@@ -81,7 +103,5 @@ public class MyFirstTest {
         s.assertAll();
 
     }
-
-//ukiuqafyuG9DTFHASUISER;IODTRHWQS
 
 }
